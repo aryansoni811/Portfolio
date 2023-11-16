@@ -4,8 +4,8 @@
 
 ### SUMMARY
 
-As a passionate problem solver, I am eager to embark on my journey as a So ware Engineer. With a creative mindset and a strong technical foundation, I thrive in teamoriented environments. I possess a natural curiosity, constantly exploring and experimenting to enhance both my skills and the projects I work on. My commitment to
-improvement extends not only to myself but also to the collaborative e orts that drive success.
+As a passionate problem solver, I am eager to embark on my journey as a Software Engineer. With a creative mindset and a strong technical foundation, I thrive in teamoriented environments. I possess a natural curiosity, constantly exploring and experimenting to enhance both my skills and the projects I work on. My commitment to
+improvement extends not only to myself but also to the collaborative efforts that drive success.
 
 ### PROJECTS
 
