@@ -7,7 +7,7 @@
     <title>Aryan Soni</title>
   </head>
   <body>
-    <header class="text-gray-600 body-font">
+    <header class="text-gray-700 font-inter bg-secondary">
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
@@ -21,7 +21,7 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+            class="w-10 h-10 text-white p-2 bg-primary rounded-full"
             viewBox="0 0 24 24"
           >
             <path
@@ -33,13 +33,15 @@
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
         >
-          <a class="mr-5 hover:text-gray-900">First Link</a>
-          <a class="mr-5 hover:text-gray-900">Second Link</a>
-          <a class="mr-5 hover:text-gray-900">Third Link</a>
-          <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+          <a href="#projects" class="mr-5 hover:text-gray-900">Projects</a>
+          <a href="#skills" class="mr-5 hover:text-gray-900">Skills</a>
+          <a href="#education" class="mr-5 hover:text-gray-900">Education</a>
+          <a href="#involvement" class="mr-5 hover:text-gray-900"
+            >Involvement</a
+          >
         </nav>
         <button
-          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+          class="inline-flex text-white items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-accent-hover rounded text-base mt-4 md:mt-0"
         >
           Button
           <svg
@@ -56,8 +58,8 @@
         </button>
       </div>
     </header>
-    <main>
-      <section class="text-gray-600 body-font">
+    <main class="max-w-5xl mx-auto">
+      <section class="text-gray-700 font-inter">
         <div
           class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
         >
@@ -80,12 +82,12 @@
             </p>
             <div class="flex justify-center">
               <button
-                class="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+                class="inline-flex text-white bg-accent border-0 py-2 px-6 focus:outline-none hover:bg-accent-hover rounded text-lg"
               >
                 Download Resume
               </button>
               <button
-                class="ml-4 inline-flex text-gray-700 bg-gray-300 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg"
+                class="ml-4 inline-flex text-gray-700 bg-secondary border-0 py-2 px-6 focus:outline-none hover:bg-opacity-80 rounded text-lg"
               >
                 Contact Me
               </button>
@@ -100,8 +102,203 @@
           </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font">
+      <section id="projects">
         <div class="container px-5 py-24 mx-auto">
+          <h2 class="text-4xl font-semibold text-center py-10">Projects</h2>
+          <div class="h-full flex flex-col sm:flex-row gap-8">
+            <div class="min-h-full w-52">
+              <div class="flex flex-col justify-between">
+                <img src="#" alt="BardBuddies_logo" />
+                <img src="#" alt="BardBuddies_page" />
+              </div>
+              <div class="flex flex-col justify-between">
+                <h3 class="text-xl font-medium underline">BardBuddies</h3>
+                <p>
+                  Designed and customized the user interface for Bark Buddies, a
+                  project aimed at connecting homeless dogs with potential
+                  owners, utilizing my skills in visualizing user experiences.
+                </p>
+                <a href="">Website</a>
+                <a href="">Github</a>
+              </div>
+            </div>
+            <div class="min-h-full w-52">
+              <div class="flex flex-col justify-between">
+                <img src="#" alt="BardBuddies_logo" />
+                <img src="#" alt="BardBuddies_page" />
+              </div>
+              <div class="flex flex-col justify-between">
+                <h3 class="text-xl font-medium underline">Color Theory</h3>
+                <p>
+                  Designed and engineered Color Theory, a dynamic web
+                  application, using hex code visualization to facilitate color
+                  mixing and matching.
+                </p>
+                <a href="">Website</a>
+                <a href="">Github</a>
+              </div>
+            </div>
+            <div class="min-h-full w-52">
+              <div class="flex flex-col justify-between">
+                <img src="#" alt="BardBuddies_logo" />
+                <img src="#" alt="BardBuddies_page" />
+              </div>
+              <div class="flex flex-col justify-between">
+                <h3 class="text-xl font-medium underline">Chat App</h3>
+                <p>
+                  Engineered a real-time chat application using ChatGPT,
+                  implementing special commands and an emoji generator to
+                  enhance user interaction
+                </p>
+                <a href="">Website</a>
+                <a href="">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="text-gray-700">
+        <div class="container px-5 py-24 mx-auto">
+          <h2 class="text-4xl font-semibold text-center py-10">Skills</h2>
+          <div class="max-w-xl mx-auto">
+            <div class="bg-white mb-2 rounded-lg overflow-hidden group">
+              <div class="bg-gray-300 p-4 cursor-pointer">
+                <h2 class="text-lg font-semibold">
+                  Data structures and algorithms
+                </h2>
+              </div>
+              <div class="p-4 hidden group-hover:block border">
+                <p>C++</p>
+                <p>Javascript</p>
+              </div>
+            </div>
+            <div class="bg-white mb-2 rounded-lg overflow-hidden group">
+              <div class="accordion-header bg-gray-300 p-4 cursor-pointer">
+                <h2 class="text-lg font-semibold">Frontend</h2>
+              </div>
+              <div class="p-4 hidden group-hover:block border">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Javascript</p>
+                <p>Tailwind</p>
+                <p>React</p>
+                <p>Bootstrap</p>
+                <p>Wordpress</p>
+              </div>
+            </div>
+            <div class="bg-white mb-2 rounded-lg overflow-hidden group">
+              <div class="accordion-header bg-gray-300 p-4 cursor-pointer">
+                <h2 class="text-lg font-semibold">Backend</h2>
+              </div>
+              <div class="p-4 hidden group-hover:block border">
+                <p>NodeJS</p>
+                <p>Express</p>
+                <p>SQL</p>
+                <p>Firebase</p>
+              </div>
+            </div>
+            <div class="bg-white mb-2 rounded-lg overflow-hidden group">
+              <div class="accordion-header bg-gray-300 p-4 cursor-pointer">
+                <h2 class="text-lg font-semibold">Graphic Design</h2>
+              </div>
+              <div class="p-4 hidden group-hover:block border">
+                <p>Figma</p>
+                <p>Photoshop</p>
+                <p>Illustrator</p>
+              </div>
+            </div>
+            <div class="bg-white mb-2 rounded-lg overflow-hidden group">
+              <div class="accordion-header bg-gray-300 p-4 cursor-pointer">
+                <h2 class="text-lg font-semibold">Others</h2>
+              </div>
+              <div class="p-4 hidden group-hover:block border">
+                <p>ChatGPT</p>
+                <p>Word</p>
+                <p>Excel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <h2 class="text-4xl font-semibold text-center py-10">Education</h2>
+          <div class="flex flex-wrap">
+            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+              <div
+                class="h-full w-6 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
+              ></div>
+              <div
+                class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              >
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h4 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                    Bachelor of Technology [2020-2024] <br />
+                    Electronics and Telecommunication Engineering
+                  </h4>
+                  <p class="leading-relaxed">
+                    Bhilai Institute of Technology, Durg • <em>8.05</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+              <div
+                class="h-full w-6 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
+              ></div>
+              <div
+                class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              >
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h4 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                    Higher Secondary School Certificate, CBSE [2018-2020]
+                  </h4>
+                  <p class="leading-relaxed">
+                    BSP Senior Secondary School, Sector 10, Bhilai •
+                    <em>8.60</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex relative pb-5 sm:items-center md:w-2/3 mx-auto">
+              <div
+                class="h-full w-6 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
+              ></div>
+              <div
+                class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row"
+              >
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h4 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                    Secondary School Certificate, CBSE [2016-2018]
+                  </h4>
+                  <p class="leading-relaxed">
+                    BSP Senior Secondary School, Sector 7, Bhilai •
+                    <em>8.47</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="involvement" class="text-gray-700 font-inter">
+        <div class="container px-5 py-24 mx-auto">
+          <h2 class="text-4xl font-semibold text-center py-10">Involvement</h2>
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
               <div class="h-full text-center">
@@ -111,20 +308,19 @@
                   src="https://dummyimage.com/302x302"
                 />
                 <p class="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  Administered TEDxBITD's speaker hospitality and logistics,
+                  ensuring a seamless event experience, resulting in zero
+                  speaker complaints.
                 </p>
                 <span
-                  class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"
+                  class="inline-block h-1 w-10 rounded bg-primary mt-6 mb-4"
                 ></span>
                 <h2
                   class="text-gray-900 font-medium title-font tracking-wider text-sm"
                 >
-                  HOLDEN CAULFIELD
+                  TEDxBITD
                 </h2>
-                <p class="text-gray-500">Senior Product Designer</p>
+                <p class="text-gray-500">Head of Logistics and Hospitality</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -135,20 +331,18 @@
                   src="https://dummyimage.com/300x300"
                 />
                 <p class="leading-relaxed">
-                  Edison bulb retro cloud bread echo park, helvetica stumptown
-                  taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                  ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut
-                  adaptogen squid fanny pack vaporware.
+                  Led a team of designers to create customized graphics and
+                  videos for UNSTOP, enhancing student engagement and awareness.
                 </p>
                 <span
-                  class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"
+                  class="inline-block h-1 w-10 rounded bg-primary mt-6 mb-4"
                 ></span>
                 <h2
                   class="text-gray-900 font-medium title-font tracking-wider text-sm"
                 >
-                  ALPER KAMU
+                  UNSTOP Igniters Club BITD
                 </h2>
-                <p class="text-gray-500">UI Develeoper</p>
+                <p class="text-gray-500">Head Graphic Designer</p>
               </div>
             </div>
             <div class="lg:w-1/3 lg:mb-0 p-4">
@@ -165,12 +359,12 @@
                   adaptogen squid fanny pack vaporware.
                 </p>
                 <span
-                  class="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"
+                  class="inline-block h-1 w-10 rounded bg-primary mt-6 mb-4"
                 ></span>
                 <h2
                   class="text-gray-900 font-medium title-font tracking-wider text-sm"
                 >
-                  HENRY LETHAM
+                  DUMMY TEXT
                 </h2>
                 <p class="text-gray-500">CTO</p>
               </div>
@@ -178,37 +372,8 @@
           </div>
         </div>
       </section>
-      <section>
-        <div class="max-w-md mx-auto">
-          <div class="accordion">
-            <!-- Accordion Item 1 -->
-            <div
-              class="accordion-item bg-white mb-2 rounded-lg overflow-hidden group"
-            >
-              <div class="bg-gray-300 p-4 cursor-pointer">
-                <h2 class="text-lg font-semibold">Section 1</h2>
-              </div>
-              <div class="p-4 hidden group-hover:block">
-                <p>Content for Section 1 goes here.</p>
-              </div>
-            </div>
-
-            <!-- Accordion Item 2 -->
-            <div
-              class="accordion-item bg-white mb-2 rounded-lg overflow-hidden"
-            >
-              <div class="accordion-header bg-gray-300 p-4 cursor-pointer">
-                <h2 class="text-lg font-semibold">Section 2</h2>
-              </div>
-              <div class="accordion-content p-4">
-                <p>Content for Section 2 goes here.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
-    <footer class="text-gray-600 body-font">
+    <footer class="text-gray-600 font-inter">
       <div
         class="container px-14 py-8 mx-auto flex items-center sm:flex-row flex-col"
       >
@@ -222,7 +387,7 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-blue-500 rounded-full"
+            class="w-10 h-10 text-white p-2 bg-primary rounded-full"
             viewBox="0 0 24 24"
           >
             <path
