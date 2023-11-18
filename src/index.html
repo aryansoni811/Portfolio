@@ -33,7 +33,7 @@
             >Involvement</a
           >
         </nav>
-        <a href="#contact">
+        <a href="mailto:arpitsoni811@gmail.com">
           <button
             class="inline-flex text-white items-center bg-accent border-0 py-1 px-3 focus:outline-none hover:bg-accent-hover rounded text-base mt-4 md:mt-0"
           >
@@ -53,10 +53,10 @@
         </a>
       </div>
     </header>
-    <main class="max-w-5xl mx-auto">
+    <main class="">
       <section class="text-gray-700">
         <div
-          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+          class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center max-w-5xl"
         >
           <div
             class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
@@ -99,8 +99,8 @@
           </div>
         </div>
       </section>
-      <section id="projects">
-        <div class="container px-5 py-24 mx-auto">
+      <section id="projects" class="bg-gray-200">
+        <div class="container px-5 py-24 mx-auto max-w-5xl">
           <h2 class="text-4xl font-semibold text-center py-10">Projects</h2>
           <div class="h-full flex flex-col items-center sm:flex-row gap-8">
             <!-- Bark_Buddies -->
@@ -223,7 +223,7 @@
         </div>
       </section>
       <section id="skills" class="text-gray-700">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto max-w-5xl">
           <h2 class="text-4xl font-semibold text-center py-10">Skills</h2>
           <div class="max-w-xl mx-auto">
             <div class="bg-white mb-2 rounded-lg overflow-hidden group">
@@ -285,15 +285,15 @@
           </div>
         </div>
       </section>
-      <section id="education" class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
+      <section id="education" class="text-gray-600 bg-gray-200">
+        <div class="container px-5 py-24 mx-auto max-w-5xl">
           <h2 class="text-4xl font-semibold text-center py-10">Education</h2>
           <div class="flex flex-wrap">
             <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
               <div
                 class="h-full w-6 absolute inset-0 flex items-center justify-center"
               >
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                <div class="h-full w-1 bg-gray-700 pointer-events-none"></div>
               </div>
               <div
                 class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
@@ -316,7 +316,7 @@
               <div
                 class="h-full w-6 absolute inset-0 flex items-center justify-center"
               >
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                <div class="h-full w-1 bg-gray-700 pointer-events-none"></div>
               </div>
               <div
                 class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
@@ -339,7 +339,7 @@
               <div
                 class="h-full w-6 absolute inset-0 flex items-center justify-center"
               >
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                <div class="h-full w-1 bg-gray-700 pointer-events-none"></div>
               </div>
               <div
                 class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-primary text-white relative z-10 title-font font-medium text-sm"
@@ -362,7 +362,7 @@
         </div>
       </section>
       <section id="involvement" class="text-gray-700">
-        <div class="container px-5 py-24 mx-auto">
+        <div class="container px-5 py-24 mx-auto max-w-5xl">
           <h2 class="text-4xl font-semibold text-center py-10">Involvement</h2>
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -436,7 +436,10 @@
           </div>
         </div>
       </section>
-      <section id="contact" class="text-gray-600 body-font relative">
+      <section
+        id="contact"
+        class="text-gray-600 body-font relative bg-gray-200"
+      >
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-col text-center w-full mb-12">
             <h1
@@ -448,55 +451,60 @@
               Reach out to me whenever you like :)
             </p>
           </div>
-          <div class="lg:w-1/2 md:w-2/3 mx-auto">
-            <div class="flex flex-wrap -m-2">
-              <div class="p-2 w-1/2">
-                <div class="relative">
-                  <label for="name" class="leading-7 text-sm text-gray-600"
-                    >Name</label
-                  >
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
+          <form
+            action="https://formsubmit.co/051f203d2a7c107058ea675d7146abf0 "
+            method="POST"
+          >
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+              <div class="flex flex-wrap -m-2">
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="name" class="leading-7 text-sm text-gray-600"
+                      >Name</label
+                    >
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="w-full bg-white rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="p-2 w-1/2">
-                <div class="relative">
-                  <label for="email" class="leading-7 text-sm text-gray-600"
-                    >Email</label
-                  >
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                  />
+                <div class="p-2 w-1/2">
+                  <div class="relative">
+                    <label for="email" class="leading-7 text-sm text-gray-600"
+                      >Email</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="w-full bg-white rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="p-2 w-full">
-                <div class="relative">
-                  <label for="message" class="leading-7 text-sm text-gray-600"
-                    >Message</label
-                  >
-                  <textarea
-                    id="message"
-                    name="message"
-                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                  ></textarea>
+                <div class="p-2 w-full">
+                  <div class="relative">
+                    <label for="message" class="leading-7 text-sm text-gray-600"
+                      >Message</label
+                    >
+                    <textarea
+                      id="message"
+                      name="message"
+                      class="w-full bg-white rounded border border-gray-300 focus:border-accent focus:bg-white focus:ring-2 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    ></textarea>
+                  </div>
                 </div>
-              </div>
-              <div class="p-2 w-full">
-                <button
-                  class="flex mx-auto text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-hover rounded text-lg"
-                >
-                  Send
-                </button>
+                <div class="p-2 w-full">
+                  <button
+                    class="flex mx-auto text-white bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-hover rounded text-lg"
+                  >
+                    Send
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
+          </form>
         </div>
       </section>
     </main>
@@ -510,7 +518,7 @@
           <span class="ml-3 text-xl">Aryan Soni</span>
         </a>
         <p
-          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
+          class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-700 sm:py-2 sm:mt-0 mt-4"
         >
           <a
             href="mailto:arpitsoni811@gmail.com"
