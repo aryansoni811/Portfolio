@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="./src/styles.css" />
+    <link rel="stylesheet" href="./dist/output.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,12 +16,18 @@
   <body class="font-roboto">
     <header class="text-gray-700 bg-primary bg-opacity-30">
       <div
-        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+        class="container mx-auto flex flex-wrap p-8 flex-col md:flex-row items-center"
       >
         <a
           class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
-          <span class="ml-3 text-xl">Aryan Soni</span>
+          <img
+            src="./public/aryan_logo.png"
+            width="50px"
+            height="50px"
+            alt="Aryan Soni"
+          />
+          <!-- <span class="ml-3 text-xl">Aryan Soni</span> -->
         </a>
         <nav
           class="md:ml-auto flex flex-wrap items-center text-base justify-center"
@@ -83,7 +89,7 @@
               also to the collaborative efforts that drive success.
             </p>
             <div class="flex justify-center">
-              <a href="../public/AryanResumeLatest.pdf" download>
+              <a href="./public/AryanResumeLatest.pdf" download>
                 <button
                   class="inline-flex text-white bg-accent border-0 py-2 px-6 focus:outline-none hover:bg-accent-hover rounded text-lg"
                 >
@@ -101,7 +107,7 @@
             <img
               class="object-cover object-center rounded-full"
               alt="hero"
-              src="../public/portfolio_img.jpg"
+              src="./public/Me_blob.webp"
             />
           </div>
         </div>
@@ -115,7 +121,7 @@
               <div class="flex flex-col justify-between">
                 <h3 class="text-3xl font-medium p-5">BardBuddies</h3>
                 <img
-                  src="../public/Screenshot 2023-11-18 163733.png"
+                  src="./public/Screenshot 2023-11-18 163733.png"
                   alt="BardBuddies_logo"
                 />
               </div>
@@ -148,7 +154,7 @@
               <div class="flex flex-col justify-between">
                 <h3 class="text-3xl font-medium p-5">Color Theory</h3>
                 <img
-                  src="../public/Screenshot 2023-11-18 165719.png"
+                  src="./public/Screenshot 2023-11-18 165719.png"
                   alt="BardBuddies_logo"
                 />
               </div>
@@ -181,7 +187,7 @@
               <div class="flex flex-col justify-between">
                 <h3 class="text-3xl font-medium p-5">Chat App</h3>
                 <img
-                  src="../public/Screenshot 2023-11-18 170405.png"
+                  src="./public/Screenshot 2023-11-18 170405.png"
                   alt="chatapp_ss"
                 />
               </div>
@@ -381,7 +387,7 @@
                 <img
                   alt="tedxbitd"
                   class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="../public/tedxbitd.jpg"
+                  src="./public/tedxbitd.jpg"
                 />
                 <p class="leading-relaxed">
                   Administered TEDxBITD's speaker hospitality and logistics,
@@ -404,7 +410,7 @@
                 <img
                   alt="unstopLogo"
                   class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="../public/unstopLogo.jpg"
+                  src="./public/unstopLogo.jpg"
                 />
                 <p class="leading-relaxed">
                   Led a team of designers to create customized graphics and
@@ -426,7 +432,7 @@
                 <img
                   alt="bolclub"
                   class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                  src="../public/bolclub.jpg"
+                  src="./public/bolclub.jpg"
                 />
                 <p class="leading-relaxed">
                   Had the opportunity to be in this awesome club which led to
@@ -545,7 +551,9 @@
           <!-- insta -->
           <a
             href="https://www.instagram.com/aryan.__.soni_/"
-            class="ml-3 text-red-500 fill-black"
+            rel="noopener noreferrer"
+            target="_blank"
+            class="ml-3 fill-black"
           >
             <svg
               fill="none"
@@ -565,6 +573,8 @@
           <!-- linkdin -->
           <a
             href="https://www.linkedin.com/in/aryan-soni-4129ab20b"
+            rel="noopener noreferrer"
+            target="_blank"
             class="ml-3 text-gray-500 fill-black"
           >
             <svg
@@ -587,6 +597,8 @@
           <a
             class="ml-3 text-gray-500 fill-black"
             href="https://replit.com/@AryanSoni8"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <svg
               width="24"
@@ -606,7 +618,12 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500" href="https://github.com/aryansoni811">
+          <a
+            class="ml-3 text-gray-500"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/aryansoni811"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
